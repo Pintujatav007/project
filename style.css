@@ -1,0 +1,282 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            .main {
+                width: 100%;
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("kumar(2).jpg");
+                background-position: center;
+                background-size: cover;
+                height: 109vh;
+            }
+            
+            .navbar {
+                width: 1200px;
+                height: 75px;
+                margin: auto;
+            }
+            
+            .icon {
+                width: 150px;
+                float: left;
+                height: 80px;
+            }
+            
+            .logo {
+                color: rgb(255, 111, 0);
+                position: absolute;
+                top: 1%;
+                left: 3px;
+                font-size: 39px;
+                font-weight: bold;
+                font-family: arial;
+                padding-left: 20px;
+                float: left;
+                padding-top: 10px;
+            }
+            
+            .logo:hover {
+                color: #0d00ff;
+            }
+            
+            .menu {
+                width: 400px;
+                float: left;
+                height: 80px;
+            }
+            
+            ul {
+                float: left;
+                display: flex;
+                justify-content: left;
+                align-items: left;
+            }
+            
+            ul li {
+                list-style: none;
+                margin-left: 80px;
+                margin-top: 28px;
+                font-size: 24px;
+            }
+            
+            ul li a {
+                text-decoration: none;
+                color: rgb(255, 98, 0);
+                font-family: arial;
+                font-weight: bold;
+                transition: 0.4s ease-in-out;
+            }
+            
+            ul li a:hover {
+                color: #0d00ff;
+            }
+            
+            .search {
+                width: 50px;
+                float: left;
+                margin-left: 510px;
+            }
+            
+            .srch {
+                font-family: 'Times New Roman';
+                width: 230px;
+                height: 40px;
+                background: transparent;
+                border: 1px solid #ffa200;
+                margin-top: 23px;
+                color: white;
+                border-right: none;
+                font-size: 18px;
+                float: left;
+                padding: 18px;
+                border-bottom-left-radius: 5px;
+                border-top-left-radius: 5px;
+            }
+            
+            .btn {
+                width: 230px;
+                border-radius: 19px;
+                height: 40px;
+                background: #ff7200;
+                margin-top: 13px;
+                border: 0px solid #0004ff;
+                color: white;
+                font-size: 18px;
+                border-bottom-right-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            
+            .btn:hover {
+                background: #0d00ff;
+                color: orange;
+            }
+            
+            .btn:focus {
+                outline: none;
+            }
+            
+            .srch:focus {
+                outline: none;
+            }
+            
+            .content {
+                width: 1200px;
+                height: auto;
+                margin: auto;
+                color: white;
+                position: relative;
+                position: absolute;
+                top: 110px;
+                left: 40px;
+            }
+            
+            .content .par {
+                padding-left: 18px;
+                padding-bottom: 25px;
+                font-family: arial;
+                letter-spacing: 1.3px;
+                line-height: 25px;
+            }
+            
+            .content h1 {
+                font-family: 'Times New Roman';
+                font-size: 55px;
+                padding-left: 30px;
+                margin-top: 9%;
+                letter-spacing: 2px;
+            }
+            
+            .content .cn {
+                width: 140px;
+                height: 35px;
+                background: #ff7200;
+                border: none;
+                margin-bottom: 10px;
+                margin-left: 20px;
+                font-size: 19px;
+                border-radius: 13px;
+                cursor: pointer;
+                transition: .4s ease;
+            }
+            
+            .content .cn a {
+                text-decoration: none;
+                color: black;
+                transition: .3s ease;
+            }
+            
+            .cn:hover {
+                background-color: rgb(0, 11, 128);
+            }
+            
+            .content span {
+                color: #ff6f00;
+                font-size: 55px;
+            }
+            
+            .form {
+                width: 320px;
+                height: 430px;
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+                top: 100px;
+                position: absolute;
+                left: 1330px;
+                border-radius: 10px;
+                padding: 29px;
+            }
+            
+            .form h2 {
+                width: 250px;
+                font-family: sans-serif;
+                text-align: center;
+                color: #ff7200;
+                font-size: 25px;
+                background-color: black;
+                margin: 9px;
+                padding: 10px;
+            }
+            
+            .form input {
+                width: 270px;
+                height: 40px;
+                border-radius: 7px;
+                background: transparent;
+                border-bottom: 1px solid #ff7200;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+                color: white;
+                font-size: 16px;
+                letter-spacing: 1px;
+                margin-top: 30px;
+                font-family: sans-serif;
+            }
+            
+            .form input:focus {
+                outline: none;
+            }
+            
+             ::placeholder {
+                color: white;
+                font-family: arial;
+                font-weight: bold;
+            }
+            
+            .btnn {
+                width: 270px;
+                height: 40px;
+                background: #ff7200;
+                border: none;
+                margin-top: 40px;
+                font-size: 20px;
+                border-radius: 11px;
+                cursor: pointer;
+                color: white;
+                transition: 0.4s ease;
+            }
+            
+            .btnn:hover {
+                background: rgb(0, 0, 128);
+                color: orange;
+            }
+            
+            .btnn a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+            
+            .form .Link {
+                font-family: arial, Helvetica, sans-serif;
+                font-size: 24px;
+                padding-top: 40px;
+                text-align: center;
+                font-weight: bold;
+            }
+            
+            .form .Link a {
+                text-decoration: none;
+                color: #ff7200;
+            }
+            
+            .form .Link a .liw {
+                padding-top: 20px;
+                font-size: 21px;
+                padding-bottom: 25px;
+                text-align: center;
+                font-weight: bold;
+                font-family: arial;
+            }
+            
+            .icon a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            .icon ion-icon {
+                padding-left: 20px;
+                padding-top: 16px;
+                font-size: 26px;
+                transition: 0.6s ease;
+            }
